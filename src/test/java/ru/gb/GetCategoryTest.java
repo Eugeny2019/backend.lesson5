@@ -1,13 +1,13 @@
 package ru.gb;
 
-import lesson5.api.CategoryService;
-import lesson5.dto.GetCategoryResponse;
-import lesson5.utils.RetrofitUtils;
 import lombok.SneakyThrows;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import retrofit2.Response;
+import ru.gb.api.CategoryService;
+import ru.gb.dto.GetCategoryResponse;
+import ru.gb.utils.RetrofitUtils;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;

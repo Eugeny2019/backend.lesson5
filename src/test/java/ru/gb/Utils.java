@@ -1,8 +1,8 @@
 package ru.gb;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import lesson5.dto.GetCategoryResponse;
 import org.junit.jupiter.api.Test;
+import ru.gb.dto.GetCategoryResponse;
 
 import java.io.IOException;
 import java.io.StringReader;

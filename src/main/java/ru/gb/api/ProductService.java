@@ -1,9 +1,9 @@
 package ru.gb.api;
 
-import lesson5.dto.Product;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;
+import ru.gb.dto.Product;
 
 public interface ProductService {
 

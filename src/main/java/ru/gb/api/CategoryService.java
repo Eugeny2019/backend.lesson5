@@ -1,9 +1,8 @@
 package ru.gb.api;
 
-import lesson5.dto.GetCategoryResponse;
-import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;
+import ru.gb.dto.GetCategoryResponse;
 
 
 public interface CategoryService {
